@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6b0072/v1
+canonical_location: https://kanripo.org/bkk/KR6b0072/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 群牛譬經
+  identifiers:
+    alt_id:
+    - T04n0215
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T04/T04n0215.xml
+    old_id: T04n0215
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0072_000.yaml, hash: 'sha256:df72dad1952869117d50e03a0183cc4b215ccbb40e861a1aa80465800253eef7'}
+  - {seq: 1, filename: KR6b0072_001.yaml, hash: 'sha256:e6f9c6141b665cb4be50151d56f93f2708e897d5c157dfdc4eb7dd2f0b882ca1'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6b0072_001.markers.yaml, hash: 'sha256:eff7eb75d2a5669ba53020b3eb41aa9e690199728e929622c30f2f35a195db8f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0072_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 585
+  label: 佛說群牛譬經
+  type: juan
+  level: 1
+hash: sha256:987c0c3fc55f011a153f515274be2e2fa71bfc1abd60478be8ed4bee8a7fa714
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
